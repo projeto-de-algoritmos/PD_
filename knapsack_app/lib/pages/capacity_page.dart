@@ -29,6 +29,7 @@ class CapacidadePage extends StatelessWidget {
               keyboardType: TextInputType.number,
               decoration: const InputDecoration(labelText: 'Capacidade da Mochila'),
             ),
+            const SizedBox(height: 20,),
             ElevatedButton(
               onPressed: () => inserirItens(context),
               child: const Text('Continuar'),
