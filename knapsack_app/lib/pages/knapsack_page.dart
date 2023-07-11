@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../controllers/knapsack_controller.dart';
 import '../models/item.dart';
 import 'capacity_page.dart';
+import 'package:lottie/lottie.dart';
 
 class MochilaPage extends StatefulWidget {
   final int capacidadeMochila;
@@ -42,7 +43,21 @@ class MochilaPageState extends State<MochilaPage> {
       builder: (BuildContext context) {
         return AlertDialog(
           title: const Text('Resultado da Mochila'),
-          content: Text('Valor máximo: $valorMaximo'),
+          content: Column(
+            mainAxisSize: MainAxisSize.min,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Text('Valor máximo: $valorMaximo'),
+              SizedBox(
+                height: 150,
+                width: 150,
+                child: Lottie.asset(
+                  'assets/knapsack_animation.json',
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ],
+          ),
           actions: [
             TextButton(
               onPressed: () {
