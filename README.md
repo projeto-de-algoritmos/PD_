@@ -10,11 +10,6 @@
 | 17/0069991	 |  João Victor Max Bisinotti de Oliveira |
 
 
-## Vídeo de Apresentação
-
-[Clique aqui para ver o vídeo!](https://unbbr.sharepoint.com/sites/Algoritmo262/Documentos%20Compartilhados/General/Recordings/Nova%20reuni%C3%A3o-20230529_192649-Meeting%20Recording.mp4?web=1)
-
-
 ## Sobre
 
 O algoritmo da mochila em programação dinâmica é um método eficiente para resolver o problema de selecionar itens de uma lista para preencher uma mochila com capacidade limitada, visando maximizar o valor total dos itens selecionados. Ele divide o problema em subproblemas menores, armazenando soluções intermediárias em uma matriz para calcular o valor máximo para diferentes capacidades da mochila e subconjuntos de itens. Isso resulta em uma abordagem eficiente e escalável para resolver o problema clássico da mochila.
